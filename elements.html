@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Project</title>
+  </head>
+  <body>
+    <h1 id="top">This is a heading!</h1>
+    <h2>Smaller heading!</h2>
+
+    <p>Things can be <b>bold</b> or <i>italic</i>!</p>
+    <p>Something about E = MC<sup>2</sup>.</p>
+    <p>Another thing about CO<sub>2</sub>.</p>
+    <p>Whitespace   is not    preserved!</p>
+    <p>Can start<br>new lines<br>with br!</p>
+    <p>Horizontal line time!</p>
+
+    <hr>
+
+    <p>Can <mark>highlight text</mark> as well!</p>
+
+    <blockquote cite="http://example.com">
+      You can also cite a source with blockquote!
+    </blockquote>
+
+    <p>You can also simply <q>quote a phrase</q>!</p>
+    <p>You can <abbr title="Abbreviate">abbr</abbr> elements as well.</p>
+    <p>You can <cite>Cite</cite> something as well, like a movie.</p>
+    <p>The definition of <dfn>definition</dfn> is the meaning of a word or phrase.</p>
+    <p>You can mark text as <del>deleted</del> or <ins>inserted</ins>.</p>
+    <p>Text can be given a <s>strikethrough</s> as well, but it is semantically different from deletion!</p>
+
+    <ul>
+      <li>This</li>
+      <li>is an</li>
+      <li>unordered</li>
+      <li>list</li>
+    </ul>
+
+    <ol>
+      <li>There is</li>
+      <li>also an</li>
+      <li>ordered</li>
+      <li>list!</li>
+    </ol>
+
+    <dl>
+      <dt>Definition</dt>
+      <dd>This is a definiton list.</dd>
+      <dt>List</dt>
+      <dd>It's a very un-list-like thing.</dd>
+    </dl>
+
+    <ul>
+      <li>This is a</li>
+      <li>nested list</li>
+      <ul>
+        <li>It's pretty</li>
+        <li>damn cool</li>
+      </ul>
+      <li>Get it?</li>
+    </ul>
+
+    <p>You can also have a <a href="https://example.com">link to a website</a> just like that.</p>
+
+    <p>Or you can link to <a href="#top">other</a> parts of the same page.</p>
+
+    <img src="https://i0.wp.com/natureconservation.in/wp-content/uploads/2016/10/2.png" alt="Just a little bird" title="Just a bird!" />
+
+    <p>Some more text!</p>
+
+    <p>
+      <img src="https://www.birdnote.org/sites/default/files/styles/square_200/public/storage/indigo-bunting-joanne-kamo.jpg" alt="Bird" align="right" />
+
+      Some text next to the bird! It will wrap around!
+
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint fugiat vero perspiciatis amet, natus placeat unde aut dolore dolores sunt excepturi, laborum quo, sit odit hic asperiores qui debitis eum?
+    </p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis vero, animi facilis odio, nemo qui totam, molestiae debitis voluptates quod ducimus. Pariatur veniam provident libero laudantium voluptatem corporis voluptatibus minima!</p>
+
+    <figure>
+      <img src="https://www.birdnote.org/sites/default/files/styles/square_200/public/storage/painted_bunting-greg-lavaty.jpg" alt="More bird">
+
+      <br>
+
+      <figcaption>This is a caption for the figure above.</figcaption>
+    </figure>
+
+    <p>Here is a table:</p>
+
+    <table>
+      <tr>
+        <td>15</td>
+        <td>15</td>
+        <td>30</td>
+      </tr>
+
+      <tr>
+        <td>45</td>
+        <td>60</td>
+        <td>90</td>
+      </tr>
+    </table>
+
+    <p>Here is another table with some headers and some extra padding and style (though styling should be done with CSS):</p>
+
+    <table cellpadding="5" cellspacing="5" border="2" bgcolor="#efefef">
+      <tr>
+        <th></th>
+        <th scope="col">Saturday</th>
+        <th scope="col">Sunday</th>
+      </tr>
+
+      <tr>
+        <th scope="row">Tickets sold</th>
+        <td>120</td>
+        <td>135</td>
+      </tr>
+    </table>
+
+    <p>And another:</p>
+
+    <table>
+      <tr>
+        <th width="150"></th>
+        <th>Withdrawn</th>
+        <th>Credit</th>
+        <th width="150" bgcolor="#cccccc">Balance</th>
+      </tr>
+
+      <tr>
+        <th>January</th>
+        <td>250.00</td>
+        <td>660.50</td>
+        <td bgcolor="#cccccc">410.50</td>
+      </tr>
+
+      <tr>
+        <th>February</th>
+        <td>135.55</td>
+        <td>895.20</td>
+        <td bgcolor="#cccccc">1170.15</td>
+      </tr>
+    </table>
+
+    <p>Here is a form:</p>
+
+    <form>
+      <fieldset>
+        <legend>Some basic inputs</legend>
+
+        <p>
+          Username:
+          <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+
+        <p>
+          Password:
+          <input type="text" name="password" size="15" maxlength="30" />
+        </p>
+
+        <label>
+          Age:
+          <input type="text" name="age">
+        </label>
+
+        <label>
+          Textarea:
+          <textarea name="comment" cols="20" rows="4">Enter your comment...</textarea>
+        </label>
+
+        <label>
+          Date:
+          <input type="date" name="date" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Some advanced inputs</legend>
+
+        <p>Your favorite genre:</p>
+        <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+        <input type="radio" name="genre" value="pop" /> Pop
+        <input type="radio" name="genre" value="jazz" /> Jazz
+
+        <p>Your favorite music service:</p>
+        <input type="checkbox" name="service" value="itunes" checked="checked"> iTunes
+        <input type="checkbox" name="service" value="lastfm"> Last.fm
+        <input type="checkbox" name="service" value="spotify"> Spotify
+
+        <p>Your favorite device:</p>
+        <select name="devices">
+          <option value="ipod" selected="selected">iPod</option>
+          <option value="radio">Radio</option>
+          <option value="pc">PC</option>
+        </select>
+
+        <p>Your favorite instruments:</p>
+        <select name="instruments" size="4" multiple>
+          <option value="guitar" selected="selected">Guitar</option>
+          <option value="piano">Piano</option>
+          <option value="drums">Drums</option>
+        </select>
+      </fieldset>
+
+      <p>Please submit:</p>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
